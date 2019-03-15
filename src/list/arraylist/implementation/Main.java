@@ -11,8 +11,8 @@ public class Main {
 		numbers.addLast(40);
 		numbers.add(1, 15);
 		numbers.addFirst(5);
-		numbers.removeFirst();
-		numbers.removeLast();
+//		numbers.removeFirst();
+//		numbers.removeLast();
 //		System.out.println(numbers.get(0));
 //		System.out.println(numbers.get(1));
 //		System.out.println(numbers.get(2));
@@ -28,9 +28,24 @@ public class Main {
 //		while(li.hasNext()) {
 //			System.out.println(li.next());
 //		}
-		li.previous();
-		li.previous();
-		
+//		System.out.println(li.next());
+//		System.out.println(li.next());
+//		System.out.println(li.next());
+//		System.out.println(li.previous());
+//		System.out.println(li.previous());
+//		System.out.println(li.hasPrevious());
+//		
+//		while(li.hasPrevious()) {
+//			System.out.println(li.previous());
+//		}
+		while(li.hasNext()) {
+			int number = (int)li.next();
+			if(number==30) {
+				li.add(35);
+				li.remove();
+			}
+		}
+		System.out.println(numbers);
 	}
 
 }
