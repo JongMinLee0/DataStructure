@@ -1,5 +1,5 @@
 # DataStructure
-<br/>
+
 ### Doubling
 #### ArrayList_1.java
 ```java
@@ -13,7 +13,7 @@ private void doubling() {
 ```
 - ArrayList의 사이즈가 채워지면 그 두배만큼을 만든다.
 - 내부적으로 이뤄지는 동작이지만 꽤 많은 시간으 잡아먹는다.
-<br/>
+
 ### HashTable
 #### HashTable_1.java
 ```java
@@ -30,7 +30,7 @@ int convertToIndex(int hashcode) {
 ```
 - 들어온 문자열을 아스키 코드로 변환하여 hashcode로 만든다.
 - hashcode를 리스트의 사이즐 나누어 index로 활용하게 만든다.
-<br/>
+
 ### Character.getCharNumber
 #### String_4.java
 ```java
@@ -44,7 +44,7 @@ int convertToIndex(int hashcode) {
 	}
 ```
 - 문자를 아스키 코드값으로 바꿔준다.
-<br/>
+
 ### StringBuilder 초기화
 #### String_6.java
 ```java
