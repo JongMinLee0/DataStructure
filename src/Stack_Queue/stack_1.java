@@ -2,7 +2,7 @@ package Stack_Queue;
 
 import java.util.EmptyStackException;
 
-class Stack<T> {
+class Stack2<T> {
 	class Node<T> {
 		private T data;
 		private Node<T> next;
@@ -44,7 +44,7 @@ class Stack<T> {
 
 public class stack_1 {
 	public static void main(String[] args) {
-		Stack<Integer> s = new Stack<Integer>();
+		Stack2<Integer> s = new Stack2<Integer>();
 		s.push(1);
 		s.push(2);
 		s.push(3);
