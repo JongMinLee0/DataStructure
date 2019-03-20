@@ -190,7 +190,8 @@ p2일시 data type은 StringBuilder가 된다.
 
 
 
-<br> 
+<br>
+
 ## Super
 class가 instance화 될 때 생성자가 실행되면서 객체의 초기화를 한다. 그 때 자신의 생성자만 실행되느 것이 아니고,
 부모의 생성자 부터 실행된다.
