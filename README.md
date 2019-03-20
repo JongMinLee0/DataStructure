@@ -14,7 +14,8 @@ private void doubling() {
 - ArrayList의 사이즈가 채워지면 그 두배만큼을 만든다.
 - 내부적으로 이뤄지는 동작이지만 꽤 많은 시간을 잡아먹는다.
  
-<br> 
+<br>
+
 ### HashTable
 #### HashTable_1.java
 ```java
@@ -161,7 +162,8 @@ class Solution {
 
 
 
-<br> 
+<br>
+
 ## Generic
 Generic은 다양한 type의 객체들을 다루는 method나 collection class에 컴파일시의 type check를 해주는 기능이다. 
 **즉, class내부에서 사용할 data type을 나중에 instance를 생성할 때 확정 짓는 것이다. **
