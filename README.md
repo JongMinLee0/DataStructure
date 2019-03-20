@@ -33,7 +33,9 @@ int convertToIndex(int hashcode) {
 - 들어온 문자열을 아스키 코드로 변환하여 hashcode로 만든다.
 - hashcode를 리스트의 사이즐 나누어 index로 활용하게 만든다.
 
-<br> 
+
+<br>
+
 ### Character.getCharNumber
 #### String_4.java
 ```java
@@ -48,7 +50,8 @@ int convertToIndex(int hashcode) {
 ```
 - 문자를 아스키 코드값으로 바꿔준다.
 
-<br> 
+<br>
+
 ### StringBuilder 초기화
 #### String_6.java
 ```java
@@ -82,7 +85,8 @@ private static String compress(String str) {
 - 그러나 뒤에서의 동작에 무리가 가므로 사이즈를 미리 구해줘 필요한 만큼만 초기화 시킨다.
 
 
-<br> 
+<br>
+
 ### String.contains(string)
 
 - String안에 string이 포함되어 있으면 true를 반환한다.
