@@ -298,10 +298,12 @@ gender1의 경우 상수로 정의 한 값을 변경하려고 했지만 컴파�
 gender2에 "boy"를 넣으려고 한다면 컴파일 에러가 발생한다. Gender type인 gender2에 String type을 집어 넣으려고 했기 때문이다.
 
 <br>
+
 ## Tree
+
 <br>
+
 ### Tree 탐색
-<br>
 
 
         1
@@ -310,7 +312,7 @@ gender2에 "boy"를 넣으려고 한다면 컴파일 에러가 발생한다. Gen
      / \
     4   5
 
-<br>
+
 ### 1. Inorder (Left, Root, Right)
 4 -> 2 -> 5 -> 1 -> 3
 
